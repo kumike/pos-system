@@ -1,4 +1,4 @@
-cat > .gitignore << 'EOF'
+
 # Python
 __pycache__/
 *.py[cod]
@@ -25,8 +25,4 @@ frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
-EOF
 
-git add .gitignore
-git commit -m "Add .gitignore"
-git push
