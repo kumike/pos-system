@@ -26,3 +26,13 @@ frontend/dist/
 .DS_Store
 Thumbs.db
 
+
+# Пароли и секреты (НИКОГДА не коммитить!)
+pass_*.txt
+*.password
+*.secret
+
+# Мусорные файлы
+*pp.jsx
+deploytxt.txt
+requirements0.txt
